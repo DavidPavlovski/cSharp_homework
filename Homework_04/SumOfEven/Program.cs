@@ -31,7 +31,7 @@ namespace SumOfEven
             {
                 Console.Write("Would you like to an additional number (y / any)? ");
                 string addMore = Console.ReadLine();
-                if (addMore.ToLower() != "y") // ->  if (addMore !="y" && addmore != "Y")
+                if (addMore.ToLower() != "y") // ->  if (addMore !="y" && addMore != "Y")
                 {
                     Console.WriteLine("Calculating results");
                     break;
