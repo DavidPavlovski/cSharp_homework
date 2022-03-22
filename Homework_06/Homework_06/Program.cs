@@ -46,7 +46,7 @@ namespace Homework_06
             Console.WriteLine("*****Racing*****");
             Console.WriteLine("****************");
 
-            Console.WriteLine($"\n**Driver : {winner.Driver.Name}, driving : {winner.Model} is the winner with a top speed of {winner.Speed}**");
+            Console.WriteLine($"\n**Driver : {winner.Driver.Name}, driving : {winner.Model} is the winner with a top speed of {winner.Speed}km/h**");
         }
 
         public static Driver SelectDriver(Driver[] drivers)
